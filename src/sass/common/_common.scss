@@ -1,0 +1,130 @@
+@include font-face("CoreSans", "../fonts/CoreSans/CoreSansRegular");
+@include font-face("CoreSans", "../fonts/CoreSans/CoreSansLight", 300);
+@include font-face("CoreSans", "../fonts/CoreSans/CoreSansLightItalic", 300, "italic");
+@include font-face("CoreSans", "../fonts/CoreSans/CoreSansThin", 100);
+@include font-face("Annabelle", "../fonts/Annabelle/Annabelle");
+@include font-face("Cormorant", "../fonts/Cormorant/CormorantRegular");
+@include font-face("Cormorant", "../fonts/Cormorant/CormorantSemiBold", 600);
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 0.75rem;
+    color: #fff;
+    line-height: 1.25rem;
+    letter-spacing: 0.6px;
+    font-family: "CoreSans", sans-serif;
+}
+
+.hidden-overflow {
+    overflow: hidden;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.wrapper {
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.clearfix{
+    display: table;
+    clear: both;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 148px);
+}
+.footer {
+    flex-shrink: 0;
+}
+
+.page-heading {
+    text-align: center;
+    padding: 25px 0;
+    margin: 20px 0;
+    font-family: 'Cormorant', sans-serif;
+    // font-variant: small-caps;
+    font-size: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    h1 {
+        transition: all $transitionTime3 ease-out;
+    }
+    &::before,
+    &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 1px;
+        transition: all $transitionTime3 ease-out;
+    }
+    &::before {
+        top: 0;
+        left: 0;
+    }
+    &::after {
+        bottom: 0;
+        right: 0;
+    }
+    &.animate-me {
+        h1, h4 {
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        &::before,
+        &::after {
+            width: 0%;
+        }
+    }
+}
+.menu__smart-orange-logo,
+.footer__smart-orange-logo {
+    width: 47px;
+    height: 18px;
+    background: url('../img/common/common_spritesheet.png');
+    background-position: -64px -2px;
+}
+
+
+// Preloader start
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 98;
+    background-color: black;
+  }
+  .preloader__cover {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background-color: black;
+  }
+  .preloader__svg-container {
+    max-width: 300px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  // Prelaoder end

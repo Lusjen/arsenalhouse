@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1024px) {
+    .menu {
+        .menu__webcam,
+        .menu__mail,
+        .menu__location,
+        .menu__language {
+            display: none;
+        }
+    }
+}
+@media only screen and (max-width: 767px) {
+    .menu__logo {
+        visibility: hidden;
+    }
+    .menu__top {
+        padding: 30px 0px;
+    }
+    .menu__lists-container {
+        flex-direction: column;
+    }
+    .menu__middle {
+        width: 300px;
+        margin: 0 auto;
+    }
+    .menu__list-heading {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .menu__item {
+        padding: 0;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .menu__container {
+        min-height: 600px;
+        overflow: auto;
+    }
+    .menu__lists-container {
+        margin: 2% auto 0;
+    }
+}

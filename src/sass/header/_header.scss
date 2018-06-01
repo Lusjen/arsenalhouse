@@ -1,0 +1,254 @@
+// Header start
+.header__fixed {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+    animation: slideFromTop $transitionTime1;
+    & +.hero {
+        margin-top: 100px;
+    }
+    & +.page {
+        margin-top: 100px;
+    }
+}
+@keyframes slideFromTop {
+    from {
+        top: -100%
+    }
+    to {
+        top: 0;
+    }
+}
+
+.header__wrapper {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.header__language,
+.header__location,
+.header__webcam,
+.header__mail {
+    display: none;
+}
+
+.nav-container {
+    background-color: $black-color;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &>ul {
+        min-height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.nav__left,
+.nav__right {
+    width: 42%;
+}
+
+.nav__item {
+    a {
+        color: $main-color;
+    }
+}
+
+.nav__item_desk {
+    a { 
+        color: $secondary-color;
+        transition: color 0.3s;
+        &:hover {
+        color: $main-color;
+        }
+    }
+}
+
+.nav__menu-btn {
+min-width: 80px;
+display: flex;
+justify-content: space-between;
+    &:hover {
+        cursor: pointer;
+        .nav__menu-line {
+            transform: none;
+        }
+    }
+}
+
+.nav__menu-lines {
+    transition: all 10s;
+}
+
+.nav__menu-line {
+    height: 1px;
+    margin-top: 5px;
+    background-color: $main-color;
+    transition: transform $transitionTime1;
+}
+
+.nav__menu-line_first {
+    width: 40px;
+}
+
+.nav__menu-line_second {
+    width: 22px;
+    transform: translateX(17px);
+}
+
+.nav__menu-line_third {
+    width: 32px;
+    transform: translateX(7px);
+}
+
+.nav__icon{
+    background-image: url('../img/main/main_page_icons_spritesheet.png');
+    background-repeat: no-repeat;
+}
+
+.nav__webcam_icon {
+    width: 17px;
+    height: 20px;
+    background-position: -74px 0;
+}
+
+.nav__mail_icon {
+    width: 19px;
+    height: 16px;
+    background-position: -12px 0;
+}
+
+.nav__map_icon {
+    width: 14px;
+    height: 20px;
+    background-position: -35px 0;
+}
+
+.nav__arrow_icon {
+    width: 6px;
+    height: 8px;
+    background-position: -2px 0;
+}
+
+.nav__logo {
+    width: 84px;
+    height:60px;
+    background-image: url('../img/common/arsenal_house_logo.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.nav__callback-btn {
+    a {
+        text-align: center;
+        display: inline-block;
+        width: 160px;
+        line-height: 40px;
+        border: 1px solid $secondary-color;
+        font-size: 0.875rem;
+        @include btn_2(100px);
+    }
+}
+.nav__callback-btn_mobile {
+    display: none;
+    a {
+        display: block;
+        width: 48px;
+        height: 48px;
+        border: 1px solid $secondary-color;
+    }
+}
+.nav__icon_mobile {
+    display: none;
+}
+.nav__phone_icon {
+    width: 20px;
+    height: 20px;
+    margin: 14px auto 0; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-image: url('../img/common/common_spritesheet.png');
+    background-position: -115px -2px;
+}
+
+.language {
+    height: 17px;
+    width: 35px;
+    position: relative;
+    &:hover {
+        cursor: pointer;
+    }
+    .nav__arrow_icon {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 7px solid $main-color;
+        border-bottom: none;
+        transition: all $transitionTime1;
+    }
+    li:nth-child(2) {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: all $transitionTime1 $transitionTime1;
+    }
+    li:nth-child(3) {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: all $transitionTime1;
+    }
+    a {
+        color: $main-color;
+    }
+    &.language__expanded {
+        li:nth-child(2) {
+            opacity: 1;
+            transform: none;
+            transition: all $transitionTime1;
+        }
+        li:nth-child(3) {
+            opacity: 1;
+            transform: none;
+            transition: all $transitionTime1 $transitionTime1;
+        }
+        .nav__arrow_icon {
+            border-top: none;
+            border-bottom: 7px solid $main-color;
+        }
+    }
+}
+
+
+.icon-hover {
+    position: relative;
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 1px;
+        background-color: $main-color;
+        transition: all $transitionTime1;
+    }
+    &:hover {
+        &::after {
+            width: 100%;
+        }       
+    }
+}
+
+.nav__bud-logo {
+    width: 58px;
+    height: 40px;
+    background-image: url('../img/common/common_spritesheet.png');
+    background-position: 0 0;
+}
