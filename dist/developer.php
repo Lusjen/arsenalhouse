@@ -40,7 +40,7 @@
                             </li>
                             <li class="developer__description_logo developer__description_logo-3">
                                 <a href="https://kmb.ua/ua/" target="_blank">
-                                    <img src="/img/developer/kievmiskbud.png" alt="kievmiskbud">
+                                    <img src="img/developer/kievmiskbud.png" alt="kievmiskbud">
                                 </a>
                             </li>
                         </ul>

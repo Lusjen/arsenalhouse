@@ -28,7 +28,7 @@
                     </li>
                     <li class="nav__item nav__item_desk"><a href="/">Головна</a></li>
                     <li class="nav__item nav__item_desk"><a href="advantages.php">Переваги</a></li>
-                    <li class="nav__item nav__item_desk"><a href="construction.php">Хід будівнитва</a></li>
+                    <li class="nav__item nav__item_desk nav__item_desk-active"><a href="construction.php">Хід будівнитва</a></li>
                 </ul>
                 <div class="nav__item nav__logo-container">
                     <a href="/">
