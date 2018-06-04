@@ -39,9 +39,6 @@
 }
 .developer__description_logo {
     text-align: center;
-    &:hover {
-        cursor: pointer;
-    }
 }
 .developer__description_logo-2 {
     margin: 40px 0;
@@ -77,13 +74,6 @@
 .developer__gallery_item {
     img {
         margin: 0 auto;
-        width: 60%;
+        width: 90%;
     }
-}
-
-.developer__tab {
-    display: none;
-    &.developer__tab_visible {
-        display: block;
-    } 
 }

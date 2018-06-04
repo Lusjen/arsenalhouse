@@ -19,47 +19,29 @@
                 </div>
                 <div class="developer__description">
                     <div class="developer__description_text">
-                        <div class="developer__tab developer__tab_visible developer__tab_bud js-developer_tab">
-                            <h4 class="developer__description_heading">КОМПАНІЯ «BUD DEVELOPMENT»</h4>
-                            <p class="developer__description_paragraph">
-                                Компанія «bUd development» створена командою професіоналів в галузі житлового будівництва. 
-                                Головна мета команди - створення особливих проектів, які відповідають сучасним потребам ринку та поєднують 
-                                в собі продуману концепцію забудови й інфраструктури. Діяльність компанії «bud development» орієнтована на 
-                                пошук та впровадження сучасних та ефективних рішень в сфері нерухомості.
-                            </p>
-                            <a href="http://www.bud.com.ua/" target="_blank" class="developer__description_link">Офіційний сайт компанії</a>
-                        </div>
-                        <div class="developer__tab developer__tab_kc js-developer_tab">
-                            <h4 class="developer__description_heading">КОМПАНІЯ «KC Group»</h4>
-                            <p class="developer__description_paragraph">
-                                Компанія «bUd development» створена командою професіоналів в галузі житлового будівництва. 
-                                Головна мета команди - створення особливих проектів, які відповідають сучасним потребам ринку та поєднують 
-                                в собі продуману концепцію забудови й інфраструктури. Діяльність компанії «bud development» орієнтована на 
-                                пошук та впровадження сучасних та ефективних рішень в сфері нерухомості.
-                            </p>
-                            <a href="http://www.bud.com.ua/" target="_blank" class="developer__description_link">Офіційний сайт компанії</a>
-                        </div>
-                        <div class="developer__tab developer__tab_kievmiskbud js-developer_tab">
-                            <h4 class="developer__description_heading">КОМПАНІЯ «Kievmiskbud»</h4>
-                            <p class="developer__description_paragraph">
-                                Компанія «bUd development» створена командою професіоналів в галузі житлового будівництва. 
-                                Головна мета команди - створення особливих проектів, які відповідають сучасним потребам ринку та поєднують 
-                                в собі продуману концепцію забудови й інфраструктури. Діяльність компанії «bud development» орієнтована на 
-                                пошук та впровадження сучасних та ефективних рішень в сфері нерухомості.
-                            </p>
-                            <a href="http://www.bud.com.ua/" target="_blank" class="developer__description_link">Офіційний сайт компанії</a>
-                        </div>
+                        <h4 class="developer__description_heading">КОМПАНІЯ «BUD DEVELOPMENT»</h4>
+                        <p class="developer__description_paragraph">
+                            Компанія «bUd development» створена командою професіоналів в галузі житлового будівництва. 
+                            Головна мета команди - створення особливих проектів, які відповідають сучасним потребам ринку та поєднують 
+                            в собі продуману концепцію забудови й інфраструктури. Діяльність компанії «bud development» орієнтована на 
+                            пошук та впровадження сучасних та ефективних рішень в сфері нерухомості.
+                        </p>
+                        <a href="http://www.bud.com.ua/" target="_blank" class="developer__description_link">Офіційний сайт компанії</a>
                     </div>
-                    <div class="developer__description_logos js-developer__description_logos">
+                    <div class="developer__description_logos">
                         <ul>
-                            <li class="developer__description_logo developer__description_logo-1 js-developer__tab-btn">
-                                <img src="/img/developer/bud.png" alt="Bud" data-company="bud">
+                            <li class="developer__description_logo developer__description_logo-1">
+                                <a href="http://www.bud.com.ua/" target="_blank">
+                                    <img src="/img/developer/bud.png" alt="Bud">
+                                </a>
                             </li>
-                            <li class="developer__description_logo developer__description_logo-2 js-developer__tab-btn">
-                                <img src="/img/developer/kc.png" alt="Kc" data-company="kc">
+                            <li class="developer__description_logo developer__description_logo-2">
+                                <img src="/img/developer/kc.png" alt="Kc">
                             </li>
-                            <li class="developer__description_logo developer__description_logo-3 js-developer__tab-btn">
-                                <img src="/img/developer/kievmiskbud.png" alt="kievmiskbud" data-company="kievmiskbud">
+                            <li class="developer__description_logo developer__description_logo-3">
+                                <a href="https://kmb.ua/ua/" target="_blank">
+                                    <img src="/img/developer/kievmiskbud.png" alt="kievmiskbud">
+                                </a>
                             </li>
                         </ul>
                     </div>
