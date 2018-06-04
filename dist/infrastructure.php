@@ -12,7 +12,13 @@
     <?php include_once('includes/menu.php'); ?>
     <?php include_once('includes/header.php'); ?>
     <div class="page">
-        <div class="infrastructure-page__heading-wrapper">
+        
+        <div class="infrastructure-map__image-wrap">
+            <img src="img/infrastructure/infrastucture-map.jpg" alt="map" class="infrastructure-map__image">
+        </div>
+
+
+        <?/* <div class="infrastructure-page__heading-wrapper">
             <div class="page-heading infrastructure-page__heading animate-me">
                 <h1>Інфраструктура</h1>
             </div>
@@ -75,19 +81,21 @@
             </div>
         </div>
         <div class="infrastructure-page__wrapper js-infrastructure-page__map">
-        </div>
-        <footer class="footer documents__footer">
+        </div> */?>
+        
+        <footer class="footer">
             <div class="wrapper footer__wraper">
                 <div class="copyright">
                     &#169; Усі права захищено. Арсенал
                 </div>
                 <div class="smartOrange">
                     <a href="http://smartorange.com.ua/" target="_blank">
-                        <div class="footer__smart-orange-logo"></div>
+                            <div class="footer__smart-orange-logo"></div>
                     </a>
                 </div>
             </div>
         </footer>
+
     </div>
     <?/* 
     api key: AIzaSyAMNKSlK2f4GzCKxngMafg2SkcA5QeWsgI
@@ -96,6 +104,6 @@
     ?>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAMNKSlK2f4GzCKxngMafg2SkcA5QeWsgI"></script>
     <script src="js/common.min.js"></script>
-    <script src="js/infrastructure.min.js"></script>
+    <!-- <script src="js/infrastructure.min.js"></script> -->
 </body>
 </html>

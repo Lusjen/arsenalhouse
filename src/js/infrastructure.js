@@ -1,7 +1,8 @@
 var infrastructurePage = (function() {
 
     var xmlhttp = new XMLHttpRequest();
-    var url = "/js/map.style.json";
+    // var url = "/js/map.style.json";
+    var url = "js/map.style.json";
 
     xmlhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
