@@ -35,9 +35,15 @@
 @media only screen and (max-height: 800px) {
     .menu__container {
         min-height: 600px;
-        overflow: auto;
+        // overflow: auto;
     }
     .menu__lists-container {
         margin: 2% auto 0;
+    }
+}
+
+@media only screen and (max-width: 500px) and (max-height: 900px) {
+    .menu__container {
+        overflow: auto;
     }
 }

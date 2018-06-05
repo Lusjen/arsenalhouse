@@ -19,29 +19,50 @@
                 </div>
                 <div class="developer__description">
                     <div class="developer__description_text">
-                        <h4 class="developer__description_heading">КОМПАНІЯ «BUD DEVELOPMENT»</h4>
-                        <p class="developer__description_paragraph">
-                            Компанія «bUd development» створена командою професіоналів в галузі житлового будівництва. 
-                            Головна мета команди - створення особливих проектів, які відповідають сучасним потребам ринку та поєднують 
-                            в собі продуману концепцію забудови й інфраструктури. Діяльність компанії «bud development» орієнтована на 
-                            пошук та впровадження сучасних та ефективних рішень в сфері нерухомості.
-                        </p>
-                        <a href="http://www.bud.com.ua/" target="_blank" class="developer__description_link">Офіційний сайт компанії</a>
+                        <div class="developer__tab developer__tab_visible developer__tab_bud js-developer_tab">
+                            <h4 class="developer__description_heading">КОМПАНІЯ «BUD DEVELOPMENT»</h4>
+                            <p class="developer__description_paragraph">
+                                Компанія «bUd development» створена командою професіоналів в галузі житлового будівництва. 
+                                Головна мета команди - створення особливих проектів, які відповідають сучасним потребам ринку та поєднують 
+                                в собі продуману концепцію забудови й інфраструктури. Діяльність компанії «bud development» орієнтована на 
+                                пошук та впровадження сучасних та ефективних рішень в сфері нерухомості.
+                            </p>
+                            <a href="http://www.bud.com.ua/" target="_blank" class="developer__description_link">Офіційний сайт компанії</a>
+                        </div>
+                        <div class="developer__tab developer__tab_kc js-developer_tab">
+                            <h4 class="developer__description_heading">КОМПАНІЯ «KC Group»</h4>
+                            <p class="developer__description_paragraph">
+                                Компанія «bUd development» створена командою професіоналів в галузі житлового будівництва. 
+                                Головна мета команди - створення особливих проектів, які відповідають сучасним потребам ринку та поєднують 
+                                в собі продуману концепцію забудови й інфраструктури. Діяльність компанії «bud development» орієнтована на 
+                                пошук та впровадження сучасних та ефективних рішень в сфері нерухомості.
+                            </p>
+                            <a href="http://www.bud.com.ua/" target="_blank" class="developer__description_link">Офіційний сайт компанії</a>
+                        </div>
+                        <div class="developer__tab developer__tab_kievmiskbud js-developer_tab">
+                            <h4 class="developer__description_heading">КОМПАНІЯ «Kievmiskbud»</h4>
+                            <p class="developer__description_paragraph">
+                                Компанія «bUd development» створена командою професіоналів в галузі житлового будівництва. 
+                                Головна мета команди - створення особливих проектів, які відповідають сучасним потребам ринку та поєднують 
+                                в собі продуману концепцію забудови й інфраструктури. Діяльність компанії «bud development» орієнтована на 
+                                пошук та впровадження сучасних та ефективних рішень в сфері нерухомості.
+                            </p>
+                            <a href="http://www.bud.com.ua/" target="_blank" class="developer__description_link">Офіційний сайт компанії</a>
+                        </div>
                     </div>
-                    <div class="developer__description_logos">
+                    <div class="developer__description_logos js-developer__description_logos">
                         <ul>
-                            <li class="developer__description_logo developer__description_logo-1">
-                                <a href="http://www.bud.com.ua/" target="_blank">
-                                    <img src="/img/developer/bud.png" alt="Bud">
-                                </a>
+                            <li class="developer__description_logo developer__description_logo-1 js-developer__tab-btn">
+                                <!-- <img class="logo_1" src="img/developer/bud1.png" alt="Bud" data-company="bud"> -->
+                                <div class="logo logo_1" data-company="bud"></div>
                             </li>
-                            <li class="developer__description_logo developer__description_logo-2">
-                                <img src="/img/developer/kc.png" alt="Kc">
+                            <li class="developer__description_logo developer__description_logo-2 js-developer__tab-btn">
+                                <!-- <img class="logo_2" src="img/developer/kc1.png" alt="Kc" data-company="kc"> -->
+                                <div class="logo logo_2" data-company="kc"></div>
                             </li>
-                            <li class="developer__description_logo developer__description_logo-3">
-                                <a href="https://kmb.ua/ua/" target="_blank">
-                                    <img src="img/developer/kievmiskbud.png" alt="kievmiskbud">
-                                </a>
+                            <li class="developer__description_logo developer__description_logo-3 js-developer__tab-btn">
+                                <!-- <img class="logo_3" src="img/developer/kievmiskbud1.png" alt="kievmiskbud" data-company="kievmiskbud"> -->
+                                <div class="logo logo_3" data-company="kievmiskbud"></div>
                             </li>
                         </ul>
                     </div>
@@ -53,37 +74,37 @@
                     <ul class="developer__gallery">
                         <li class="developer__gallery_item">
                             <a href="http://www.france2.com.ua/" target="_blank">
-                                <img src="/img/developer/french-quarter.png" alt="French Quarter">
+                                <img src="img/developer/french-quarter.png" alt="French Quarter">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://www.zarichna.com">
-                                <img src="/img/developer/zarichna.png" alt="Zarichna">
+                                <img src="img/developer/zarichna.png" alt="Zarichna">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://www.bud-slavutich.com" target="_blank">
-                                <img src="/img/developer/slavutich.png" alt="slavutich">
+                                <img src="img/developer/slavutich.png" alt="slavutich">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://bud-time.com/" target="_blank">
-                                <img src="/img/developer/bud-time.svg" alt="bud-time">
+                                <img src="img/developer/bud-time.svg" alt="bud-time">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://bud-slavutich2.com/" target="_blank">
-                                <img src="/img/developer/slavutich2.png" alt="slavutich2">
+                                <img src="img/developer/slavutich2.png" alt="slavutich2">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://www.victory5.com.ua/" target="_blank">
-                                <img src="/img/developer/victory5.png" alt="victory5">
+                                <img src="img/developer/victory5.png" alt="victory5">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://www.vozduhoflotsky.com/" target="_blank">
-                                <img src="/img/developer/vozduhoflotsky.png" alt="vozduhoflotsky">
+                                <img src="img/developer/vozduhoflotsky.png" alt="vozduhoflotsky">
                             </a>
                         </li>
                     </ul>

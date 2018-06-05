@@ -12,7 +12,7 @@
     <?php include_once('includes/menu.php'); ?>
     <?php include_once('includes/header.php'); ?>
 
-    <section class="life-style-section life-style-section_1 animate-me">
+    <section class="life-style-section life-style-section_1 animate-me hero">
         <div class="wrapper life-style-wrapper">
             <div class="page-heading life-style__heading animate-me">
                 <h1>Life Style</h1>

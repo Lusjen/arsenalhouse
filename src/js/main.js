@@ -149,13 +149,13 @@
 
 //  =====================================================================================================================
 // Next view click start
-(function() {
-$('.next-view a').click(function(e) {
-  e.preventDefault();
-  $('html, body').animate({
-    scrollTop: $($(this).data().nextview).offset().top - 100
-  }, 1000);
-});
-})();
+// (function() {
+// $('.next-view a').click(function(e) {
+//   e.preventDefault();
+//   $('html, body').animate({
+//     scrollTop: $($(this).data().nextview).offset().top - 100
+//   }, 1000);
+// });
+// })();
 // Next view click end
 //  =====================================================================================================================

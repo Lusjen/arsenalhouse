@@ -4,7 +4,7 @@ var contactsMap = (function() {
 
     //var coordiantes = document.querySelector('.js-coordinates').innerHTML.trim().split('||');
 
-    var url = "js/map.style.json";
+    var url = "/wp-content/themes/arsenal/assets/js/map.style.json";
     var globalStyles;
 
     xmlhttp.onreadystatechange = function() {

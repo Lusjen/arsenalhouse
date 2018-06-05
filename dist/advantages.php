@@ -11,7 +11,7 @@
     <?php include_once('includes/preloader.php'); ?>
     <?php include_once('includes/menu.php'); ?>
     <?php include_once('includes/header.php'); ?>
-    <div class="page animate-me">
+    <div class="page page_oveflow_hidden animate-me">
         <div class="wrapper">
             <div class="page-heading advantages__heading animate-me">
                 <h1>Переваги</h1>

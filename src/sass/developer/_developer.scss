@@ -39,7 +39,36 @@
 }
 .developer__description_logo {
     text-align: center;
+    &:hover {
+        cursor: pointer;
+    }
 }
+
+.logo {
+    width: 70px;
+    height: 55px;
+}
+
+.logo_1 {
+    background: url(../img/developer/bud1.png) center center no-repeat;
+}
+.logo_2 {
+    background: url(../img/developer/kc1.png) center center no-repeat;
+}
+.logo_3 {
+    background: url(../img/developer/kievmiskbud1.png) center center no-repeat;
+}
+
+.logo_active .logo_1 {
+    background: url(../img/developer/bud2.png) center center no-repeat;
+}
+.logo_active .logo_2 {
+    background: url(../img/developer/kc2.png) center center no-repeat;
+}
+.logo_active .logo_3 {
+    background: url(../img/developer/kievmiskbud2.png) center center no-repeat;
+}
+
 .developer__description_logo-2 {
     margin: 40px 0;
 }
@@ -74,6 +103,13 @@
 .developer__gallery_item {
     img {
         margin: 0 auto;
-        width: 90%;
+        width: 60%;
     }
+}
+
+.developer__tab {
+    display: none;
+    &.developer__tab_visible {
+        display: block;
+    } 
 }
