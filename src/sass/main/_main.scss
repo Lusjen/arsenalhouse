@@ -193,7 +193,7 @@
   transform: translateY(-50%);
 }
 .section__box_buiding {
-  left: 5%;
+  right: 5%;
   transition: opacity $transitionTime1, left $transitionTime1;
 }
 
@@ -321,7 +321,7 @@
   transition: all $transitionTime2 $transitionTime5;
 }
 .section__box_apartments {
-  left: 5%;
+  right: 5%;
   transition: all $transitionTime1 $transitionTime1;
 }
 .animate-me {
