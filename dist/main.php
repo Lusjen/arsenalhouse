@@ -353,6 +353,7 @@
             </div>
         </div>
     </section>
+
     <footer class="footer main-footer">
         <div class="wrapper footer__wraper">
             <div class="copyright">
