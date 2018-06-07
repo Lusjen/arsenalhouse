@@ -101,6 +101,16 @@
         line-height: 30px;
         text-align: justify;
     }
+    strong {
+        font-weight: 700;
+    }
+    a {
+        color: #5b4e4b;
+        text-decoration: underline;
+    }
+    em { 
+        font-style: italic;
+    }
 }
 .news-open__construction-btn {
     margin-top: 35px;
