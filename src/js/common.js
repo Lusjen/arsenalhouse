@@ -245,7 +245,7 @@ var animateLogoCtrl = (function() {
   
     function init() {
       // Adding flag to sessionStorage
-      sessionStorage.setItem('preloader', true);
+
   
       preloader.style.display = 'block';
   
@@ -254,16 +254,34 @@ var animateLogoCtrl = (function() {
       lettersAnimation();
       Array.prototype.forEach.call(letters, animate);
     }
+
+    function checkDate() {
+      if(localStorage.getItem('preloader')===null) {
+        localStorage.setItem('preloader', Date.now());
+        return true;
+      }
+      var hour = 3600 * 1000;
+      if(Date.now() - localStorage.getItem('preloader') < hour) {
+        return false;
+      } else {
+        localStorage.setItem('preloader', Date.now());
+        return true;
+      }
+    }
   
     return {
       init: init,
       preloader: preloader,
-      preloaderCover: preloaderCover
+      preloaderCover: preloaderCover,
+      checkDate: checkDate
     };
   
   })();
+
+  ;
+
   // If no preloader flag in sessionStorage
-  if(!sessionStorage.getItem('preloader')) {
+  if(animateLogoCtrl.checkDate()) {
     animateLogoCtrl.init();
   } else {
     animateLogoCtrl.preloader.style.display = 'none';
