@@ -1,3 +1,17 @@
+
+    <div class="success-modal">
+        <div class="callback-form">
+            <div class="callback-form__border-left-top">
+                <div class="callback-form__border-right-bottom">
+                    <div class="callback-form__inner success-form__inner">
+                        <h4 class="callback-form__heading success-form__heading">
+                            Success
+                        </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 <header class="header">
         <nav class="nav-container">
             <div class="header__wrapper nav">
@@ -71,17 +85,3 @@
             </div>
         </nav>
     </header>
-
-    <div class="success-modal">
-        <div class="callback-form">
-            <div class="callback-form__border-left-top">
-                <div class="callback-form__border-right-bottom">
-                    <div class="callback-form__inner success-form__inner">
-                        <h4 class="callback-form__heading success-form__heading">
-                            Success
-                        </h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>

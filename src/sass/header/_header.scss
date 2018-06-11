@@ -5,10 +5,10 @@
     z-index: 5;
     width: 100%;
     animation: slideFromTop $transitionTime1;
-    & +.hero {
+    & ~.hero {
         margin-top: 100px;
     }
-    & +.page {
+    & ~.page {
         margin-top: 100px;
     }
 }

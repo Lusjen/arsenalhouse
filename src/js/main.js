@@ -133,7 +133,9 @@
       arrows: false,
       autoplay: true,
       draggable: false,
-      asNavFor: '.gallery__thumbnails'
+      asNavFor: '.gallery__thumbnails',
+      autoplaySpeed: '1500',
+      speed: '1500'
     });
   };
 

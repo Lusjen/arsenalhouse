@@ -74,37 +74,37 @@
                     <ul class="developer__gallery">
                         <li class="developer__gallery_item">
                             <a href="http://www.france2.com.ua/" target="_blank">
-                                <img src="img/developer/french-quarter.png" alt="French Quarter">
+                                <img class="developer__gallery_img1" src="img/developer/french-quarter.png" alt="French Quarter">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://www.zarichna.com">
-                                <img src="img/developer/zarichna.png" alt="Zarichna">
+                                <img class="developer__gallery_img2" src="img/developer/zarichna.png" alt="Zarichna">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://www.bud-slavutich.com" target="_blank">
-                                <img src="img/developer/slavutich.png" alt="slavutich">
+                                <img class="developer__gallery_img3" src="img/developer/slavutich.png" alt="slavutich">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://bud-time.com/" target="_blank">
-                                <img src="img/developer/bud-time.svg" alt="bud-time">
+                                <img class="developer__gallery_img4" src="img/developer/bud-time.svg" alt="bud-time">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://bud-slavutich2.com/" target="_blank">
-                                <img src="img/developer/slavutich2.png" alt="slavutich2">
+                                <img class="developer__gallery_img5" src="img/developer/slavutich2.png" alt="slavutich2">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://www.victory5.com.ua/" target="_blank">
-                                <img src="img/developer/victory5.png" alt="victory5">
+                                <img class="developer__gallery_img6" src="img/developer/victory5.png" alt="victory5">
                             </a>
                         </li>
                         <li class="developer__gallery_item">
                             <a href="http://www.vozduhoflotsky.com/" target="_blank">
-                                <img src="img/developer/vozduhoflotsky.png" alt="vozduhoflotsky">
+                                <img class="developer__gallery_img1" src="img/developer/vozduhoflotsky.png" alt="vozduhoflotsky">
                             </a>
                         </li>
                     </ul>

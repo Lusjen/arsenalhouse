@@ -103,7 +103,9 @@
 .developer__gallery_item {
     img {
         margin: 0 auto;
-        width: 60%;
+        // width: 60%;
+        height: 60px;
+        max-width: 60%;
     }
 }
 

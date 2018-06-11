@@ -9,10 +9,12 @@ var developerPage = (function() {
 
         var current = e.target;
 
-        logos.forEach(function(logo) {
-            logo.classList.remove('logo_active');
-            current.parentElement.classList.add('logo_active');
-        });
+        if(current.parentElement.classList.contains("developer__description_logo")) {
+            logos.forEach(function(logo) {
+                logo.classList.remove('logo_active');
+                current.parentElement.classList.add('logo_active');
+            });
+        }
 
         if(e.target.dataset.company) {
             tabContent.forEach(function(tab) {
@@ -20,6 +22,7 @@ var developerPage = (function() {
             });
             document.querySelector('.developer__tab_' + e.target.dataset.company).classList.add('developer__tab_visible')
         }
+        console.log(current);
     })
 
     devGal.slick({
