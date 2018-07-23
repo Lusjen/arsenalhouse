@@ -95,11 +95,15 @@
 }
 
 .news-open__text {
-    p {
+    span {
         color: #000;
         font-size: 1.125rem;
         line-height: 30px;
         text-align: justify;
+        display: inline-block;
+        margin-bottom: 15px;
+        width: 40%;
+
         strong {
             font-weight: 700;
         }
