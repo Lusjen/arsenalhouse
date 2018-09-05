@@ -170,6 +170,18 @@ gulp.task('choose-apartment-js', function() {
 });
 // Choose Apartment end
 
+
+// Apartments list
+gulp.task('apartments-list-js', function() {
+	return gulp.src([
+		'src/js/apartments-list.js'
+		])
+	.pipe(concat('apartments-list.min.js'))
+	.pipe(uglify())
+	.pipe(gulp.dest('dist/js'));
+});
+// Apartments list
+
 gulp.task('js', [
 	'common-js', 
 	'main-js', 
@@ -182,7 +194,8 @@ gulp.task('js', [
 	'news-js',
 	'news-open-js',
 	'terms-of-purchase-js',
-	'choose-apartment-js'], function() {
+	'choose-apartment-js',
+	'apartments-list-js'], function() {
 	return gulp.src([
 		'src/js/common.js',
 		])

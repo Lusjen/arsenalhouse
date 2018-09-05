@@ -26,19 +26,19 @@
                 </div>
             </div>
         </div>
-        <footer class="footer choose-apartment__footer">
-            <div class="wrapper footer__wraper">
-                <div class="copyright">
-                    &#169; Усі права захищено. Арсенал
-                </div>
-                <div class="smartOrange">
-                    <a href="http://smartorange.com.ua/" target="_blank">
-                        <div class="footer__smart-orange-logo"></div>
-                    </a>
-                </div>
-            </div>
-        </footer>
     </div>
+    <footer class="footer choose-apartment__footer">
+        <div class="wrapper footer__wraper">
+            <div class="copyright">
+                &#169; Усі права захищено. Арсенал
+            </div>
+            <div class="smartOrange">
+                <a href="http://smartorange.com.ua/" target="_blank">
+                    <div class="footer__smart-orange-logo"></div>
+                </a>
+            </div>
+        </div>
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="js/common.min.js"></script>
 </body>

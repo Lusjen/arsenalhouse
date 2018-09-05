@@ -1,0 +1,39 @@
+.apartments-list__heading {
+    color: red;
+    &::before,
+    &::after {
+        background-color: red;
+    }
+}
+
+.apartments-list__items-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.apartments-list__item {
+    width: 18%;
+    min-height: 250px;
+
+    background-color: red;
+    margin-top: 10px;
+}
+
+.apartments-list__btn {
+    width: 59%;
+    margin: 0 auto;
+    display: block;
+    line-height: 50px;
+    color: $main-color;
+    font-family: "CoreSans", sans-serif;
+    font-size: 0.75rem;
+    background-color: $secondary-color;
+    text-align: center;
+    border: none;
+    outline: none;
+    @include btn_2(260px, rgba(183, 157, 124, 0.5));
+    &:hover {
+        cursor: pointer;
+    }
+}

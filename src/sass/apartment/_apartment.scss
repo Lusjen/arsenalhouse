@@ -1,0 +1,78 @@
+.apartment__heading {
+    color: red;
+
+    &::before,
+    &::after {
+        background-color: red;
+    }
+}
+.apartment__btn {
+    height: 50px;
+    line-height: 50px;
+    display: block;
+    color: blue;
+    width: 150px;
+    @include btn_1(150px);
+    fill: currentColor;
+    font-size: 12px;
+    font-family: "CoreSans", sans-serif;
+    font-weight: 400;
+    span, svg {
+        position: relative;
+        z-index: 2;
+    }
+    svg {
+        vertical-align: middle;
+    }
+    &:hover {
+        color: red;
+    }
+}
+
+.apartment__back-btn {
+    position: absolute !important;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.apartment__double-arrow-container {
+    display: inline-block; 
+    width: 10px; 
+    height: 10px;
+}
+
+.apartment__data {
+    color: red;
+    border-collapse: unset;
+    border-spacing: 5px;
+    td {
+        vertical-align: middle;
+    }
+    tr {
+    }
+}
+
+.apartment__data-number {
+    width: 25px;
+    height: 25px;
+    background-color: purple;
+    border-radius: 50%;
+    text-align: center;
+
+}
+
+.apartment__data-name {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.apartment__data-area {
+    position: relative;
+    sup {
+        position: absolute;
+        font-size: smaller;
+        right: -6px;
+        top: -2px;
+    }
+}
