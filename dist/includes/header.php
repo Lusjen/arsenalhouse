@@ -40,9 +40,19 @@
                             <div class="nav__icon nav__mail_icon nav__icon_desktop"></div>
                         </a>
                     </li>
-                    <li class="nav__item nav__item_desk"><a href="/">Головна</a></li>
+                    <li class="nav__item header__language">
+                        <div class="language">
+                            <ul>
+                                <li><a href="#">Укр</a></li>
+                                <li><a href="#">Рос</a></li>
+                                <li><a href="#">Анг</a></li>
+                            </ul>
+                            <div class="nav__arrow_icon"></div>
+                        </div>
+                    </li>
                     <li class="nav__item nav__item_desk"><a href="advantages.php">Переваги</a></li>
-                    <li class="nav__item nav__item_desk nav__item_desk-active"><a href="construction.php">Хід будівнитва</a></li>
+                    <li class="nav__item nav__item_desk"><a href="choose-apartment.php">Обрати квартиру</a></li>
+                    <li class="nav__item nav__item_desk nav__item_desk-active"><a href="infrastructure.php">Розташування</a></li>
                 </ul>
                 <div class="nav__item nav__logo-container">
                     <a href="/">
@@ -57,16 +67,6 @@
                         <a href="#" class="header__map">
                             <div class="nav__icon nav__map_icon"></div>
                         </a>
-                    </li>
-                    <li class="nav__item header__language">
-                        <div class="language">
-                            <ul>
-                                <li><a href="#">Укр</a></li>
-                                <li><a href="#">Рос</a></li>
-                                <li><a href="#">Анг</a></li>
-                            </ul>
-                            <div class="nav__arrow_icon"></div>
-                        </div>
                     </li>
                     <li class="nav__item nav__callback-btn_mobile">
                         <a href="#" class="js-show-callback-form">

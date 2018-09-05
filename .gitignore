@@ -1,7 +1,5 @@
 node_modules
-
 psd
-dist/img
 dist/maps
 src/img
-dist/fonts
+dist/video
